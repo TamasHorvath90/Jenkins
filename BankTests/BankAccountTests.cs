@@ -14,7 +14,7 @@ namespace BankTests
             //Arrange
             double beginningBalance = 100;
             double debitAmount = 20;
-            double expectedBalance = 80;
+            double expectedBalance = 50;
 
             BankAccount account = new BankAccount("Tamas Horvath", beginningBalance);
 
